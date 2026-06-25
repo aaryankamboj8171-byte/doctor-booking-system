@@ -4,7 +4,7 @@ from django.contrib import messages
 from django.utils import timezone
 from .models import AvailabilitySlot, DoctorProfile
 from .forms import AvailabilitySlotForm, DoctorProfileForm
-from hms.accounts.bookings.models import Booking
+from bookings.models import Booking
 
 
 def doctor_required(view_func):
